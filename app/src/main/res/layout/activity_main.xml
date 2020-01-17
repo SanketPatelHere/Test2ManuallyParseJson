@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aaccdd"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/tvData"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Json Data"
+       android:textSize="20sp"
+       android:background="#ddccbb"/>
+
+   <Button
+       android:id="@+id/btnF1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Fragment1"
+       android:textSize="20sp"
+       android:background="#ddaacc"/>
+   <Button
+       android:id="@+id/btnF2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Fragment2"
+       android:textSize="20sp"
+       android:background="#ccddbb"/>
+   <FrameLayout
+       android:id="@+id/fm"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="15dp"
+       android:background="#ddccbb"/>
+
+
+</LinearLayout>
